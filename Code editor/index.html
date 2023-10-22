@@ -1,0 +1,69 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODE EDITOR</title>
+    <link rel="stylesheet" href="code_editor.css"> <!--external css file-->
+</head>
+
+
+<body >
+    <marquee behavior="scroll" direction="RIGHT"><h1>WELCOME TO CODE EDITOR</h1></marquee> <!--heading of code editor-->
+    <div>
+        <div id="first">
+            
+<label for="" id="ex" >Extension<!--extension if coding laguage-->
+    <select name="Extension" id="lang">
+        <option value="" class="opi"></option>
+        <option value="c"class="opi">C</option>
+        <option value="c++"class="opi">C++</option>
+        <option value="java"class="opi">Java</option>
+        <option value="python"class="opi">Python</option>
+
+    </select>
+    <label id="sea">Search</label><!--search any file-->
+    <input id="search" type="text" placeholder="Search here">
+
+</label>
+
+<ol>
+    
+    <li><a href="" class="link">Home</a></li> <!--navigation bar-->
+    <li><a href="" class="link">About</a></li>
+    <li><a href="" class="link">Contact</a></li>
+    <li><a href="" class="link">Follow</a></li>
+</ol>
+    </div>
+
+<div id="input"> <!--text area -->
+<textarea id="editor" >//write code here
+</textarea>
+
+<!--output-->
+    <textarea id="op">//output 
+    </textarea>
+    
+    </div>
+    
+    
+
+<div>
+    <button type="button" id="save">SAVE</button> <!--save button-->
+   <button id="copy" onclick="copyTo()">COPY</button><!--copy button-->
+   <button class="lock" id="lock" onclick="lock()">LOCK</button><!--lock/unlock button-->
+   
+   
+</div>
+
+
+
+    </div>
+    <script src="Code_editor.js"> //javascript external file
+
+    </script>
+    
+</body>
+
+</html>

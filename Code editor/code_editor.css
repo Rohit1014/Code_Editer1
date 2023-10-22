@@ -1,0 +1,120 @@
+#lang{    /* This is for extension  */
+    position: top;
+    border: 2px solid black;
+    height: 30px;
+    width: 200px;
+    background-color: white;
+ font-size: large;
+ color:  rgb(9, 13, 1);
+ border-radius: 8px;
+}
+
+
+
+
+#first{        /*this is for div for multiple componnts*/
+    display: flex;
+    background-color: rgb(233, 147, 156);
+    border-radius: 1px solid black;
+    width: 100%;
+    height: 100px;
+
+
+
+}
+#editor{           /*this is for text box*/
+    width: 72%;
+    height: 500px;
+    background-color: rgb(104, 104, 244);
+    border:1px solid black;
+    font-size: x-large;
+    color: rgb(4, 3, 0);
+    font-style: italic;
+    border: 3px solid black;
+}
+#op{                  /*this is for output*/ 
+    position: absolute;
+
+    width:27%;
+    height: 500px;
+    background-color: rgb(109, 235, 109);
+    font-size: x-large;
+    font-style: italic;
+}
+#sea{               /*this is for search*/
+    font-size: large;
+    color: rgb(10, 11, 0);
+    font-style: normal;
+    font-size: larger;
+ position: right;
+
+}
+#search{              /*this is for search*/
+    border-radius: 10px;
+    width: 350px;
+    height: 35px;
+    border: 2px solid black;
+    font-size: large;
+    
+}
+li{ /*this is for list item to be in same line*/
+    display: inline;
+
+}
+
+#btn{    /*this is for button to be in same line*/
+    display: inline;
+}
+#copy{      /*this is for copy button styling*/
+    background-color: rgb(250, 250, 123); 
+    
+    width: 100px;
+    height: 50px;
+    font-style: oblique;
+    color: black;
+    font-size: larger;
+    border-radius: 8px;
+    position: absolute;
+    left: 10%;
+}
+#save{      /*this is for save button styling*/
+    background-color:silver;
+    width: 100px;
+    height: 50px;
+    font-style: oblique;
+    color: black;
+    font-size: larger;
+    border-radius: 8px;
+    position: absolute;
+}
+.link{    /*this is for navigation item*/
+    width: 150px;
+    padding: 20px;
+    font-size: larger;
+}
+
+#lock,#unlock {           /*this is for lock/unlock button styling*/
+    background-color: rgb(238, 66, 66);
+    width: 100px;
+    height: 50px;
+    font-style: oblique;
+    color: black;
+    font-size: larger;
+    border-radius: 8px;
+    position: absolute;
+    right: 27%;
+}
+label{     /*this is for some basic css*/
+    font-size: xx-large;
+    font-style: unset;
+
+}
+h1{       /*this is for  heading*/
+    text-align: center;
+    color: #950c0cd4;
+    
+    
+}
+body{   /*this is for full body*/
+    background-color:#b6ddf1;
+}
